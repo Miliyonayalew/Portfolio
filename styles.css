@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu .welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+.nav-menu .logo-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #28352f;
+  flex: none;
+  margin-left: 1.5rem;
+}
+
+.nav-menu .hamburger-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  background: url("Assests/Images/background-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.primary-text {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.primary-text h2 {
+  color: #172b4d;
+  margin-bottom: 0;
+}
+
+.primary-text h3 {
+  color: green;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
+
+.supporting-text {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 0.5rem;
+  margin-right: 1.4rem;
+  margin-left: 1.4rem;
+}
+
+.social-icons {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.6rem;
+  flex: none;
+}
+
+.social-icons a {
+  color: #505f79;
+  width: 1.8rem;
+  height: 1.87rem;
+}
