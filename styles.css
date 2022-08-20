@@ -109,10 +109,10 @@ a {
 }
 
 .recent-work {
- display: grid;
- justify-content: center;
- align-items: center;
- gap: 2rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .recent-work-projects {
@@ -149,7 +149,6 @@ a {
   width: 331px;
   height: 2972px;
   margin-bottom: 1.5rem;
-
 }
 
 .card-enable {
@@ -163,25 +162,25 @@ a {
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  background: #EBF0EE;
-  border: 1px solid #D0D9D4;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
 
 .project-text {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: flex-end;
-padding: 16px;
-gap: 16px;
-width: 327px;
-height: 222px;
-left: calc(50% - 327px / 2);
-bottom: 0px;
-margin-top: 252px;
-background: #FFFFFF;
-border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px;
+  gap: 16px;
+  width: 327px;
+  height: 222px;
+  left: calc(50% - 327px / 2);
+  bottom: 0;
+  margin-top: 252px;
+  background: #fff;
+  border-radius: 8px;
 }
 
 .project-text ul {
@@ -204,14 +203,14 @@ border-radius: 8px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 .tags {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 305px;
   height: 32px;
@@ -224,7 +223,7 @@ border-radius: 8px;
   padding: 8px 12px;
   width: 103px;
   height: 32px;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border-radius: 4px;
 }
 
@@ -255,7 +254,7 @@ border-radius: 8px;
   height: 48px;
   left: calc(50% - 122px / 2 + 0.5px);
   bottom: 8px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
 }
 
@@ -269,7 +268,7 @@ border-radius: 8px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .about-me {
@@ -287,12 +286,11 @@ border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 351px;
   height: 333px;
   margin-bottom: 59px;
- 
 }
 
 .about-me-title {
@@ -302,7 +300,7 @@ border-radius: 8px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin: 0;
 }
 
@@ -311,8 +309,7 @@ border-radius: 8px;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
-  
+  color: #42526e;
 }
 
 .btn-resume {
@@ -323,7 +320,7 @@ border-radius: 8px;
   gap: 10px;
   width: 159px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   border: none;
   margin-top: 24px;
@@ -339,7 +336,7 @@ border-radius: 8px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .about-me-card {
