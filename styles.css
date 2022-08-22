@@ -395,38 +395,27 @@ a {
 }
 
 .title-tags {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 271px;
-  height: 40px;
-  margin-top: 0;
-  margin-bottom: 4.5rem;
-  flex-wrap: wrap;
+  float: left;
+  padding-left: 0;
+  margin-left: 0;
+  
 }
 
 .title-tag {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  width: 89px;
-  height: 40px;
-  background: #fff;
-  border-radius: 8px;
-  margin: 0;
-  flex: 1;
+  float: inherit;
 }
 
 .title-tag-text {
+  float: inherit;
+  margin-right: .2rem;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #36b37e;
+  cursor: pointer;
+  border-radius: 5px;
+
 }
 
 .title-and-tags ul {
