@@ -444,7 +444,7 @@ a {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  padding-bottom: .2rem;
+  padding-bottom: 0.2rem;
 }
 
 .form-text {
@@ -473,7 +473,7 @@ a {
   gap: 24px;
 }
 
-.contact-form ul{
+.contact-form ul {
   padding: 0;
   gap: 24px;
   list-style: none;
@@ -488,7 +488,9 @@ a {
   margin-bottom: 24px;
 }
 
-.name, .email-address, .textarea{
+.name,
+.email-address,
+.textarea {
   width: 327px;
   height: 48px;
   font-weight: 400;
@@ -561,7 +563,7 @@ textarea {
   padding-bottom: 189px;
 }
 
-.social-icons-bottom{
+.social-icons-bottom {
   width: 170.17px;
   height: 20px;
   display: flex;
@@ -580,8 +582,8 @@ textarea {
   background: #0a2759;
 }
 
-.fullname input:hover, 
-.email input:hover, 
+.fullname input:hover,
+.email input:hover,
 .feedback textarea:hover {
   border: 2px solid #3a86ff;
-  }
+}
