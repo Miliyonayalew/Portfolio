@@ -280,6 +280,7 @@ a {
   background: url("Assests/Images/about.svg"), url("Assests/Images/about-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  padding-bottom: 0;
 }
 
 .about-me-text {
@@ -443,6 +444,7 @@ a {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
+  padding-bottom: .2rem;
 }
 
 .form-text {
@@ -471,14 +473,22 @@ a {
   gap: 24px;
 }
 
+.contact-form ul{
+  padding: 0;
+  gap: 24px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
 .fullname {
   box-sizing: border-box;
   background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  margin-bottom: 24px;
 }
 
-.name {
+.name, .email-address, .textarea{
   width: 327px;
   height: 48px;
   font-weight: 400;
@@ -493,16 +503,7 @@ a {
   background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-}
-
-.email-address {
-  width: 327px;
-  height: 48px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  margin-bottom: 24px;
 }
 
 .feedback {
@@ -511,14 +512,13 @@ a {
   background: #fff;
   border: 1px solid #60c095;
   border-radius: 4px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .textarea {
   width: 327px;
   height: 114px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
   color: #091e42;
 }
 
@@ -551,14 +551,24 @@ textarea {
 }
 
 .myemail {
-  padding: 0;
-  margin: 0;
-  width: 375px;
-  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  text-align: center;
+  padding-bottom: 189px;
+}
+
+.social-icons-bottom{
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: none;
+  padding: 1rem;
 }
 
 * button:hover {
@@ -569,3 +579,9 @@ textarea {
 * button:visited {
   background: #0a2759;
 }
+
+.fullname input:hover, 
+.email input:hover, 
+.feedback textarea:hover {
+  border: 2px solid #3a86ff;
+  }
