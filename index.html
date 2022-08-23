@@ -295,16 +295,24 @@
                     so if you'd like to chat please get in touch.
                 </p>
             </div>
-            <form class="contact-form" action="contact">
-                <label for="name" class="fullname">
-                    <input class="name" id="name" type="text" placeholder="Full name">
-                </label>
-                <label for="email" class="email">
-                    <input class="email-address" id="email" type="text" placeholder="Email address">
-                </label>
-                <label for="feedback" class="feedback">
-                    <textarea class="textarea"  name="feedback" placeholder="Enter text here" id="feedback" cols="30" rows="10"></textarea>
-                </label>
+            <form class="contact-form" action="https://formspree.io/f/xqkjaerj" method="post">
+                <ul>
+                    <li>
+                        <label for="name" class="fullname">
+                            <input class="name" id="name" type="text" placeholder="Full name" maxlength="30" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="email" class="email">
+                            <input class="email-address" id="email" type="email" placeholder="Email address" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="feedback" class="feedback">
+                        <textarea class="textarea"  name="feedback" placeholder="Enter text here" id="feedback" cols="30" rows="10" maxlength="500" required></textarea>
+                        </label>
+                    </li>
+                </ul>
                <button type="submit" class="get-in-touch">Get in touch</button>
             </form>
             <div class="social-icons bottom">
