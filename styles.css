@@ -15,6 +15,8 @@ body {
   font-style: normal;
 }
 
+/* Navigation menu */
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -52,6 +54,8 @@ a {
   color: black;
   text-decoration: none;
 }
+
+/* headline section */
 
 .headline {
   display: flex;
@@ -107,6 +111,8 @@ a {
   width: 1.8rem;
   height: 1.87rem;
 }
+
+/* recent-work section */
 
 .recent-work {
   display: grid;
@@ -270,6 +276,8 @@ a {
   letter-spacing: 0.03em;
   color: #fff;
 }
+
+/* about-me section */
 
 .about-me {
   display: flex;
@@ -438,6 +446,8 @@ a {
   margin: 0;
 }
 
+/* form section */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -539,10 +549,7 @@ a {
   color: #091e42;
 }
 
-input {
-  padding: 1rem;
-}
-
+input,
 textarea {
   padding: 1rem;
 }
