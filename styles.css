@@ -280,6 +280,7 @@ a {
   background: url("Assests/Images/about.svg"), url("Assests/Images/about-desktop.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  padding-bottom: 0;
 }
 
 .about-me-text {
@@ -443,6 +444,11 @@ a {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
+  padding-bottom: 0;
+  background: url("Assests/Images/illustration-contact-form.svg");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .form-text {
@@ -469,33 +475,35 @@ a {
   align-items: center;
   padding: 0;
   gap: 24px;
-}
-
-.fullname {
-  box-sizing: border-box;
-  background: #fff;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-}
-
-.name {
   width: 327px;
-  height: 48px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  height: 330px;
 }
 
+.contact-form ul {
+  padding: 0;
+  gap: 24px;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.fullname,
 .email {
   box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  margin-bottom: 24px;
 }
 
+.name,
 .email-address {
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
   width: 327px;
   height: 48px;
   font-weight: 400;
@@ -503,22 +511,31 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
+  background: #fff;
+  border: 1px solid #d0d9d4;
 }
 
 .feedback {
-  box-sizing: border-box;
-  bottom: 0;
-  background: #fff;
-  border: 1px solid #60c095;
-  border-radius: 4px;
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .textarea {
   width: 327px;
   height: 114px;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
   color: #091e42;
 }
 
@@ -551,21 +568,40 @@ textarea {
 }
 
 .myemail {
-  padding: 0;
-  margin: 0;
-  width: 375px;
-  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  text-align: center;
+  padding-bottom: 189px;
+  color: #42526e;
+}
+
+.social-icons-bottom {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: none;
+  padding: 0 0.5rem;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 * button:hover {
-  background: #1e488f;
+  background: #36b37f;
   cursor: pointer;
 }
 
-* button:visited {
-  background: #0a2759;
+* button:active {
+  background: #008552;
+}
+
+.fullname input:hover,
+.email input:hover,
+.feedback textarea:hover {
+  border: 2px solid #36b37f;
 }
