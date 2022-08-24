@@ -444,7 +444,11 @@ a {
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0;
+  background: url("Assests/Images/illustration-contact-form.svg");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .form-text {
@@ -471,6 +475,8 @@ a {
   align-items: center;
   padding: 0;
   gap: 24px;
+  width: 327px;
+  height: 330px;
 }
 
 .contact-form ul {
@@ -480,8 +486,13 @@ a {
   margin-bottom: 0;
 }
 
-.fullname {
+.fullname,
+.email {
   box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   background: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -489,8 +500,10 @@ a {
 }
 
 .name,
-.email-address,
-.textarea {
+.email-address {
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
   width: 327px;
   height: 48px;
   font-weight: 400;
@@ -498,29 +511,31 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-}
-
-.email {
-  box-sizing: border-box;
   background: #fff;
   border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  margin-bottom: 24px;
 }
 
 .feedback {
-  box-sizing: border-box;
-  bottom: 0;
-  background: #fff;
-  border: 1px solid #60c095;
-  border-radius: 4px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  width: 327px;
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .textarea {
   width: 327px;
   height: 114px;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 15px;
   color: #091e42;
 }
 
@@ -570,20 +585,22 @@ textarea {
   align-items: center;
   justify-content: space-between;
   flex: none;
-  padding: 1rem;
+  padding: 0 0.5rem;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 * button:hover {
-  background: #1e488f;
+  background: #36b37f;
   cursor: pointer;
 }
 
-* button:visited {
-  background: #0a2759;
+* button:active {
+  background: #008552;
 }
 
 .fullname input:hover,
 .email input:hover,
 .feedback textarea:hover {
-  border: 2px solid #3a86ff;
+  border: 2px solid #36b37f;
 }
