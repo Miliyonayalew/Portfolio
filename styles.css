@@ -61,28 +61,27 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1.5rem;
+  padding: 4rem 1.5rem;
+  gap: 58px;
   background: url("Assests/Images/background-mobile.svg");
   background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .primary-text {
-  margin-top: 0;
   font-weight: 700;
+  margin-top: 0;
   font-size: 2.5rem;
-  line-height: 4.5rem;
+  line-height: 3.2rem;
   text-align: center;
-}
-
-.primary-text h2 {
   color: #172b4d;
   margin-bottom: 0;
 }
 
-.primary-text h3 {
-  color: green;
-  margin-top: 0.4rem;
-  margin-bottom: 0;
+.primary-text span {
+  color: #36b37e;
 }
 
 .supporting-text {
@@ -91,9 +90,10 @@ a {
   line-height: 1.75rem;
   text-align: center;
   color: #172b4d;
-  margin-top: 0.5rem;
-  margin-right: 1.4rem;
-  margin-left: 1.4rem;
+  flex: none;
+  flex-grow: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social-icons {
@@ -102,8 +102,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.6rem;
   flex: none;
+  padding: 0 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  list-style: none;
 }
 
 .social-icons a {
@@ -584,18 +587,6 @@ textarea {
   line-height: 32px;
   padding-bottom: 189px;
   color: #42526e;
-}
-
-.social-icons-bottom {
-  width: 170.17px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex: none;
-  padding: 0 0.5rem;
-  margin-bottom: 0;
-  list-style: none;
 }
 
 * button:hover {
