@@ -667,6 +667,13 @@ textarea {
     flex: none;
     flex-grow: 0;
   }
+  .menu-item a {
+transition: border_bottom 0.02s ease-in-out;
+border-bottom: none;
+  }
+  .menu-item:hover {
+    border-bottom: 4px solid #008552;
+  }
 
   .menu-item a {
     font-weight: 600;
