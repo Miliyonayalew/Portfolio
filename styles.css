@@ -223,8 +223,8 @@ a {
   padding: 0;
 }
 
-.social-icons li:hover {
-  transform: translateY(-10px) scale(1.5) rotate(360deg);
+.social-icons li {
+  transition: transform 0.275s ease-in-out;
 }
 
 .project-text li {
@@ -236,8 +236,8 @@ a {
   margin: 0;
 }
 
-.social-icons li {
-  transition: transform 0.275s ease-in-out;
+.social-icons li:hover {
+  transform: translateY(-10px) scale(1.5) rotate(360deg);
 }
 
 .project-title {
@@ -482,7 +482,6 @@ a {
   list-style-type: none;
 }
 
-
 /* form section */
 .form {
   display: flex;
@@ -645,7 +644,6 @@ textarea {
 .feedback textarea:hover {
   border: 2px solid #36b37f;
 }
-
 
 /* desktop-version */
 @media only screen and (min-width: 768px) {
