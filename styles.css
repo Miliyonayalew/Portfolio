@@ -96,7 +96,12 @@ a {
   flex: none;
   flex-grow: 0;
 }
-
+.social-icons li{
+  transition: transform 0.02s ease-in-out;
+}
+.social-icons li:hover {
+  transform: translateY(-10px) scale(1.5) rotate(360deg);
+}
 .social-icons {
   width: 170.17px;
   height: 20px;
