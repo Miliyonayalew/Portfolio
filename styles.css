@@ -97,7 +97,7 @@ a {
   flex-grow: 0;
 }
 .social-icons li{
-  transition: transform 0.02s ease-in-out;
+  transition: transform 0.275s ease-in-out;
 }
 .social-icons li:hover {
   transform: translateY(-10px) scale(1.5) rotate(360deg);
@@ -637,6 +637,15 @@ textarea {
   border: 2px solid #36b37f;
 }
 
+
+* button {
+  transition: transform 0.275s ease-in-out;
+}
+
+* button:hover{
+  transform: translateY(-10px) scale(1) rotate(0deg);
+}
+
 /* desktop-version */
 @media only screen and (min-width: 768px) {
   .welcome,
@@ -677,7 +686,8 @@ transition: border_bottom 0.02s ease-in-out;
 border-bottom: none;
   }
   .menu-item:hover {
-    border-bottom: 4px solid #008552;
+    border-bottom: 2px solid #008552;
+    border-radius: 5px;
   }
 
   .menu-item a {
