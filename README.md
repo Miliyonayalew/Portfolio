@@ -17,9 +17,9 @@ Portfolio is one of the most powerful tools in our software developer toolbox; i
 
 👤 **Miliyon Ayalew**
 
-- GitHub: [@githubhandle](https://github.com/Miliyonayalew/)
-- Twitter: [@twitterhandle](https://twitter.com/MilaAyalew)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/miliyon-ayalew-210808131/)
+- GitHub: [@Miliyonayalew](https://github.com/Miliyonayalew/)
+- Twitter: [@MilaAyalew](https://twitter.com/MilaAyalew)
+- LinkedIn: [@miliyon-ayalew](https://www.linkedin.com/in/miliyon-ayalew-210808131/)
 
 
 ## 🤝 Contributing
