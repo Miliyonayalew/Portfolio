@@ -55,8 +55,12 @@ a {
   text-decoration: none;
 }
 
-.item-navigation {
+.item-navigation{
   display: none;
+}
+
+.visible {
+  display: flex;
   height: 100vh;
   position: fixed;
   left: 0px;
@@ -72,11 +76,11 @@ a {
   list-style: none;
 }
 
-.closeMenu{
+.nav-menu .closeMenu{
   display: none;
 }
 
-.item-navigation, .closeMenu{
+.visible, .closeMenu{
   display: block;
   position: absolute;
   top: 20px;
@@ -96,7 +100,8 @@ a {
   align-items: center;
   color: #3A4A42;
 }
-.item-navigation, .closeMenu{
+
+.visible, .closeMenu{
   display: block;
   position: absolute;
   top: 20px;
