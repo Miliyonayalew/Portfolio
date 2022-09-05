@@ -11,7 +11,8 @@
     <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>     
+<body>  
+    <header>
         <nav class="nav-menu">
             <h1 class="welcome"><a href="#" class="logo-text">Welcome</a></h1>
             <div class="hamburger-menu">
@@ -20,11 +21,13 @@
                 </a>
             </div>
             <ul class="item-navigation">
-                <li class="menu-item"><a href="#">Portfolio</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item"><a href="#recent-work">Portfolio</a></li>
+                <li class="menu-item"><a href="#about-me">About</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
+            <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
         </nav>
+    </header>
     <main class="main">
         <section class="headline">
                 <h2 class="primary-text">Hey there. I’m Miliyon. <br> <span>I’m a software developer</span> </h2>
@@ -45,7 +48,7 @@
                     <button class="action-button" type="submit"><i class="fa-solid fa-chevron-down"></i></button>                   
                 </div>             
         </section>
-        <section class="recent-work">
+        <section id="recent-work" class="recent-work">
             <div class="recent-work-projects">
                 <h2 class="recent-work-projects-text">My Recent Work</h2>
                 <p class="indicator"></p>
@@ -198,7 +201,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="about-me-text">
                 <h2 class="about-me-title">About me</h2>
                 <p class="about-me-content"> I can help you build a product , 
@@ -293,7 +296,7 @@
                 </div>
             </div>
         </section>
-        <section class="form">
+        <section id="contact" class="form">
             <div class="form-text">
                 <h2 class="form-text-intro">
                     I'm always interested in hearing about new projects, 
@@ -329,5 +332,6 @@
             <h3>miliayalew@gmail.com</h3>
         </div>
     </footer>
+    <script src="js/mobileMenu.js"></script>
 </body>
 </html>
