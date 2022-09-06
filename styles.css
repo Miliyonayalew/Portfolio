@@ -17,14 +17,16 @@ body {
 
 /* Navigation menu */
 
-.nav-menu {
+.flex{
   display: flex;
+}
+
+.nav-menu {
   justify-content: space-between;
   align-items: center;
 }
 
 .welcome {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
@@ -34,7 +36,6 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #28352f;
@@ -43,7 +44,6 @@ body {
 }
 
 .hamburger-menu {
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0.5rem;
@@ -98,7 +98,6 @@ a {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
   align-items: center;
   color: #3a4a42;
   padding-top: 40px;
@@ -106,7 +105,6 @@ a {
 
 /* headline section */
 .headline {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 4rem 1.5rem;
@@ -145,7 +143,6 @@ a {
 .social-icons {
   width: 170.17px;
   height: 20px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   flex: none;
@@ -162,7 +159,6 @@ a {
 }
 
 .action {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -172,7 +168,6 @@ a {
 }
 
 .action-button {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -195,7 +190,6 @@ a {
 }
 
 .recent-work-projects {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
@@ -220,7 +214,6 @@ a {
 }
 
 .card {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 4px 2px;
@@ -237,7 +230,6 @@ a {
 }
 
 .img-placeholder {
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
@@ -247,7 +239,6 @@ a {
 }
 
 .project-text {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
@@ -298,7 +289,6 @@ a {
 }
 
 .tags {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -308,7 +298,6 @@ a {
 }
 
 .tag {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
@@ -335,7 +324,6 @@ a {
 }
 
 .btn-project {
-  display: flex;
   flex-direction: row;
   align-items: center;
   border: none;
@@ -355,7 +343,6 @@ a {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -365,7 +352,6 @@ a {
 /* about-me section */
 
 .about-me {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 64px 24px;
@@ -377,7 +363,6 @@ a {
 }
 
 .about-me-text {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
@@ -391,7 +376,6 @@ a {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #172b4d;
@@ -407,7 +391,6 @@ a {
 }
 
 .btn-resume {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -426,7 +409,6 @@ a {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -434,7 +416,6 @@ a {
 }
 
 .about-me-card {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1px;
@@ -457,7 +438,6 @@ a {
 }
 
 .icons {
-  display: flex;
   justify-content: center;
   width: 327px;
   height: 128px;
@@ -470,13 +450,13 @@ a {
 }
 
 .title-and-tags {
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
   gap: 24px;
   bottom: 72px;
   margin-top: 3rem;
+  flex-wrap: nowrap;
 }
 
 .card-title {
@@ -489,7 +469,6 @@ a {
 }
 
 .title-tags {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -502,7 +481,6 @@ a {
 }
 
 .title-tag {
-  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
