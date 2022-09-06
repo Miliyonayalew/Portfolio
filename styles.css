@@ -441,7 +441,6 @@ a {
   margin: 0.5rem;
 }
 
-
 /* form section */
 .form {
   flex-direction: column;
@@ -729,7 +728,6 @@ textarea {
     gap: 20px;
     align-self: center;
   }
-
 
   /* form */
   .form {
