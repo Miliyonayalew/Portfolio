@@ -8,8 +8,10 @@ function show() {
 }
 
 function close() {
-  menuItem.style.top = '-200%';
+  menuItem.classList.remove('visible');
   closeMenu.style.display = 'none';
 }
+
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+menuItem.addEventListener('click', close);
