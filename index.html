@@ -11,22 +11,25 @@
     <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>     
-        <nav class="nav-menu">
-            <h1 class="welcome"><a href="#" class="logo-text">Welcome</a></h1>
-            <div class="hamburger-menu">
+<body>  
+    <header>
+        <nav class="nav-menu flex">
+            <h1 class="welcome flex"><a href="#" class="logo-text flex">Welcome</a></h1>
+            <div class="hamburger-menu flex">
                 <a href="#">
                     <i class="fa-solid fa-bars"></i>
                 </a>
             </div>
-            <ul class="item-navigation">
-                <li class="menu-item"><a href="#">Portfolio</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-                <li class="menu-item"><a href="#">Contact</a></li>
-            </ul>
+        <ul class="item-navigation flex">
+            <li class="closeMenu"><i class="fa-solid fa-xmark close"></i></li>
+            <li class="menu-item flex"><a class="flex" href="#recent-work">Portfolio</a></li>
+            <li class="menu-item flex"><a class="flex" href="#about-me">About</a></li>
+            <li class="menu-item flex"><a class="flex" href="#contact">Contact</a></li>
+         </ul>
         </nav>
+    </header>
     <main class="main">
-        <section class="headline">
+        <section class="headline flex">
                 <h2 class="primary-text">Hey there. I’m Miliyon. <br> <span>I’m a software developer</span> </h2>
                 <p class="supporting-text"> I can help you build a product , feature or website 
                     Look through some of my work and experience! If you 
@@ -34,201 +37,200 @@
                     don’t hestiate to contact me.
                 </p>
                 <div>
-                    <ul class="social-icons">
-                        <li><a href="https://twitter.com/MilaAyalew"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/miliyon-ayalew-210808131/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="https://github.com/Miliyonayalew/"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-angellist"></i></a></li>
+                    <ul class="social-icons flex">
+                        <li><a href="https://twitter.com/MilaAyalew" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/miliyon-ayalew-210808131/" aria-label="Linkedin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/Miliyonayalew/" aria-label="Github" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#" aria-label="Angellist" target="_blank" rel="noopener"><i class="fa-brands fa-angellist"></i></a></li>
                     </ul>                
                 </div>
-                <div class="action">
-                    <button class="action-button" type="submit"><i class="fa-solid fa-chevron-down"></i></button>                   
+                <div class="action flex">
+                    <button class="action-button flex" type="submit"><i class="fa-solid fa-chevron-down"></i></button>                   
                 </div>             
         </section>
-        <section class="recent-work">
-            <div class="recent-work-projects">
-                <h2 class="recent-work-projects-text">My Recent Work</h2>
+        <section id="recent-work" class="recent-work">
+            <div class="recent-work-projects flex">
+                <h2 class="recent-work-projects-text flex">My Recent Work</h2>
                 <p class="indicator"></p>
             </div>
-            <div class="card">
-                <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
-                            <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+            <div class="card flex">
+                <div class="card-enable flex">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
+                            <h3 class="project-title flex">Multi-Post Stories Gain+Glory</h3>
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                
-                                <button type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">                
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
                             <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                <button type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
                             <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                <button type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
                             <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                <button  type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
                             <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                <button type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-enable">
-                    <div class="img-placeholder">
-                        <div class="project-text">
+                    <div class="img-placeholder flex">
+                        <div class="project-text flex">
                             <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
-                            <ul class="tags">
-                                <li class="tag">
+                            <ul class="tags flex">
+                                <li class="tag flex">
                                     <span class="tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">css</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">JavScript</span>
                                 </li>
-                                <li class="tag">
+                                <li class="tag flex">
                                     <span class="tag-text">html</span>
                                 </li>
                             </ul>
-                            <div class="see-project">
-                                <button type="submit" class="btn-project"><span class="see-project-text">See Project</span></button>
+                            <div class="see-project flex">
+                                <button type="submit" class="btn-project flex">See Project</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about-me">
-            <div class="about-me-text">
-                <h2 class="about-me-title">About me</h2>
+        <section id="about-me" class="about-me flex">
+            <div class="about-me-text flex">
+                <h2 class="about-me-title flex">About me</h2>
                 <p class="about-me-content"> I can help you build a product , 
                     feature or website Look through some of my work and experience! 
                     If you like what you see and have a project you need coded, 
                     don’t hestiate to contact me.
                 </p>
-                <button type="submit" class="btn-resume">
-                    <span class="get-my-resume">Get My Resume</span>
+                <button type="submit" class="btn-resume flex">
+                    <span class="flex">Get My Resume</span>
                 </button>
             </div>
-            <div class="about-me-card">
+            <div class="about-me-card flex">
                 <div class="about-me-cards">
-                    <div class="about-img-placeholder">   
-                        <div class="icons">
+                    <div class="about-img-placeholder flex">   
+                        <div class="icons flex">
                             <img class="img-icon" src="Assests/Images/icon-languages.svg" alt="language-icon">
                         </div> 
-                        <div class="title-and-tags">
+                        <div class="title-and-tags flex">
                             <h3 class="card-title">Languages</h3>
-                            <ul class="title-tags">
-                                <li class="title-tag">
+                            <ul class="title-tags flex">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">JavaScript</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Ruby</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Html</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">CSS</span>
                                 </li>
                             </ul>
@@ -237,26 +239,26 @@
                     </div>
                 </div>
                 <div class="about-me-cards">
-                    <div class="about-img-placeholder">   
-                        <div class="icons">
+                    <div class="about-img-placeholder flex">   
+                        <div class="icons flex">
                             <img class="img-icon" src="Assests/Images/icon-frameworks.svg" alt="framework-icon">
                         </div> 
-                        <div class="title-and-tags">
-                            <h3 class="card-title">Frameworks</h3>
-                            <ul class="title-tags">
-                                <li class="title-tag">
+                        <div class="title-and-tags flex">
+                            <h3 class="card-title">Framework</h3>
+                            <ul class="title-tags flex">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Bootstrap</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Ruby on rails</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">RSpec</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Capybara</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Selenium</span>
                                 </li>
                             </ul>
@@ -265,26 +267,26 @@
                     </div>
                 </div>
                 <div class="about-me-cards">
-                    <div class="about-img-placeholder">   
-                        <div class="icons">
-                            <img class="img-icon" src="Assests/Images/icon-skills.svg" alt="skills-icon">
+                    <div class="about-img-placeholder flex">   
+                        <div class="icons flex">
+                            <img class="img-icon" src="Assests/Images/icon-skills.svg" alt="skill-icon">
                         </div> 
-                        <div class="title-and-tags">
+                        <div class="title-and-tags flex">
                             <h3 class="card-title">Skills</h3>
-                            <ul class="title-tags">
-                                <li class="title-tag">
+                            <ul class="title-tags flex">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Codekit</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">GitHub</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Codepen</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Gitlab</span>
                                 </li>
-                                <li class="title-tag">
+                                <li class="title-tag flex">
                                     <span class="title-tag-text">Terminal</span>
                                 </li>
                             </ul>
@@ -293,41 +295,42 @@
                 </div>
             </div>
         </section>
-        <section class="form">
-            <div class="form-text">
+        <section id="contact" class="form flex">
+            <div class="form-text flex">
                 <h2 class="form-text-intro">
                     I'm always interested in hearing about new projects, 
                     so if you'd like to chat please get in touch.
                 </h2>
             </div>
-            <form class="contact-form" action="https://formspree.io/f/xqkjaerj" method="post">
-                <ul>
+            <form class="contact-form flex" action="https://formspree.io/f/xqkjaerj" method="post">
+                <ul class="form-container">
                     <li class="fullname">
-                        <input class="name" id="name" type="text" placeholder="Full name" maxlength="30" required>
+                        <input class="name flex" id="name" type="text" placeholder="Full name" maxlength="30" required aria-label="Full name">
                     </li>
                     <li class="email">
-                            <input class="email-address" id="email" type="email" placeholder="Email address" required>
+                            <input class="email-address flex" id="email" type="email" placeholder="Email address" required aria-label="Email">
                     </li>
                     <li class="feedback">
-                        <textarea class="textarea"  name="feedback" placeholder="Enter text here" id="feedback" cols="30" rows="10" maxlength="500" required>Enter text here</textarea>
+                        <textarea class="textarea"  name="feedback" placeholder="Enter text here" id="feedback" cols="30" rows="10" maxlength="500" required aria-label="Feedback">Enter text here</textarea>
                     </li>
                 </ul>
-               <button type="submit" class="get-in-touch">Get in touch</button>
+                <button type="submit" class="get-in-touch flex">Get in touch</button>
             </form>
         </section>
     </main>
     <footer>      
-        <div class="bottom-navigation">
-            <ul class="social-icons">
-                <li><a href="https://twitter.com/MilaAyalew"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/miliyon-ayalew-210808131/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="https://github.com/Miliyonayalew/"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-angellist"></i></a></li>
+        <div class="bottom-navigation flex">
+            <ul class="social-icons flex">
+                <li><a href="https://twitter.com/MilaAyalew" aria-label="Twitter" target="_blank" rel="noopener"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/miliyon-ayalew-210808131/" aria-label="Linkedin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Miliyonayalew/" aria-label="Github" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#" aria-label="Angellist" target="_blank" rel="noopener"><i class="fa-brands fa-angellist"></i></a></li>
             </ul>   
         </div>       
-        <div class="myemail">
+        <div class="myemail flex">
             <h3>miliayalew@gmail.com</h3>
         </div>
     </footer>
+    <script src="js/mobileMenu.js"></script>
 </body>
 </html>
