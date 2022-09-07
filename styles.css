@@ -376,11 +376,24 @@ a {
 
 .modal-section{
   display: none;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-height: calc(150vh - 210px);
+  overflow-y: auto;
+  box-sizing: content-box;
 }
 
 .modal{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   mix-blend-mode: multiply;
   padding: 20px 16px;
   width: 80%;
@@ -395,7 +408,7 @@ a {
   background: #FFFFFF;
   border: 1px solid #DFE1E6;
   border-radius: 16px;
- 
+
 }
 
 .modal-header{
@@ -406,14 +419,14 @@ a {
 
 .project-image{
   width: 100%;
-  height: 50%;
+  height: 40vh;
   background-size: contain;
 }
 .closeModal{
   position: absolute;
-  left: 75%;
+  left: 80%;
   padding: 1rem;
-  color: black;
+  color: #67798E;
   cursor: pointer;
 }
 
@@ -482,18 +495,22 @@ a {
 .modal-action{
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   padding: 12px;
   gap: 12px;
+  flex-wrap: wrap;
   order: 1;
+  cursor: auto;
 }
 .top-action{
   display: none;
 }
+
 .see-live,
 .see-source{
-  width: 140px;
-  height: 48px;
+  width: 100%;
+  height: 7vh;
+  flex: 1 1 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -854,20 +871,44 @@ textarea {
   .modal{
     width: 60%;
   }
+  .project-image{
+    width: 100%;
+    height: 55vh;
+  }
+
+  .modal-action{
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+  }
+
+  .modal-button{
+    width: 30%;
+  } 
+
+  .see-live,
+  .see-source{
+    width: fit-content;
+  }
 
   .closeModal{
     display: inline-block;
     position: relative;
     left: 95%;
+    color: #67798E;
     background-color: #EBECF0;
     border-radius: 8px;
     margin-bottom: .5rem;
     padding: .3rem;
     }
      
-   
-
-    
+    .top-action{
+      display: contents;
+    }
+  
+    .bottom-action{
+      display: none;
+    }  
   
   /* about me section */
   .about-me {
@@ -893,14 +934,6 @@ textarea {
     height: 100%;
     gap: 20px;
     align-self: center;
-  }
-
-  .top-action{
-    display: contents;
-  }
-
-  .bottom-action{
-    display: none;
   }
 
   /* form */
