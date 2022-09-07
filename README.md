@@ -4,9 +4,9 @@
 Portfolio is one of the most powerful tools in our software developer toolbox; it’s the easiest way of showing what I'm truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what I can bring to their teams.
 
 ## Built With
-- HTML and CSS
+- HTML5, CSS3 and JavaScript
 - Github and Git
-- Figma
+- Figma [Template 3](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=34%3A2702)
 
 
 ## Live Demo 
