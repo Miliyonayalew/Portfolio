@@ -642,6 +642,15 @@ a {
   width: 100%;
 }
 
+.error {
+  color: rgb(204, 11, 11);
+  font-family: inherit;
+  font-size: .9rem;
+  padding-bottom: .8rem;
+  padding-left: .5rem;
+  display: none;
+}
+
 .form-container {
   list-style: none;
   gap: 1rem;
