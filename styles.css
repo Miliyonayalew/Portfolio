@@ -140,20 +140,20 @@ a {
   flex-grow: 0;
 }
 
-.social-icons{
+.social-icons {
   width: 25vh;
   align-items: center;
   justify-content: space-between;
   flex: none;
-  color:#505F79;
+  color: #505f79;
   padding: 0 0.5rem;
   margin-bottom: calc(4.6rem - 3.6rem / 2);
   padding-bottom: 0;
   list-style: none;
 }
 
-.social-icons .fa{
-  color: #505F79;
+.social-icons .fa {
+  color: #505f79;
 }
 
 .social-icons a {
@@ -650,9 +650,9 @@ a {
 .error {
   color: rgb(204, 11, 11);
   font-family: inherit;
-  font-size: .9rem;
-  padding-bottom: .8rem;
-  padding-left: .5rem;
+  font-size: 0.9rem;
+  padding-bottom: 0.8rem;
+  padding-left: 0.5rem;
   display: none;
 }
 
