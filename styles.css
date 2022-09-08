@@ -140,15 +140,20 @@ a {
   flex-grow: 0;
 }
 
-.social-icons {
+.social-icons{
   width: 25vh;
   align-items: center;
   justify-content: space-between;
   flex: none;
+  color:#505F79;
   padding: 0 0.5rem;
   margin-bottom: calc(4.6rem - 3.6rem / 2);
   padding-bottom: 0;
   list-style: none;
+}
+
+.social-icons .fa{
+  color: #505F79;
 }
 
 .social-icons a {
@@ -727,7 +732,7 @@ textarea {
 .bottom-navigation {
   align-items: center;
   justify-content: center;
-  margin-top: 2.75rem;
+  margin: 0;
 }
 
 .myemail {
@@ -947,7 +952,7 @@ textarea {
   /* form */
   .form {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem 2rem;
     justify-content: space-between;
     background:
