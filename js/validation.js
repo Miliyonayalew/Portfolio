@@ -12,6 +12,7 @@ function validate(e) {
   };
 
   if (emailVal.match(reg)) {
+    localStorage.setItem('DATA', JSON.stringify(formData));
     return true;
   }
   error.style.display = 'block';
@@ -22,3 +23,5 @@ function validate(e) {
 }
 
 form.addEventListener('submit', validate);
+const getInfo = localStorage.getItem('DATA');
+const getContactInfo = JSON.parse(getInfo);
