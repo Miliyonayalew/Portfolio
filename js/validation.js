@@ -2,9 +2,8 @@ const form = document.querySelector('.contact-form');
 const email = document.querySelector('.email-address');
 const error = document.querySelector('.error');
 const reg = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
-
+const emailVal = email.value;
 function validate(e) {
-  const emailVal = email.value;
   const formData = {
     fullName: document.querySelector('.name').value,
     emailAddress: document.querySelector('.email-address').value,
