@@ -1,11 +1,10 @@
 const form = document.querySelector('.contact-form');
 const email = document.querySelector('.email-address');
 const error = document.querySelector('.error');
+const reg = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
-form.addEventListener('submit', (e) => {
+function validate(e) {
   const emailVal = email.value;
-  const reg = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
-
   if (emailVal.match(reg)) {
     return true;
   }
@@ -14,4 +13,6 @@ form.addEventListener('submit', (e) => {
   email.style.border = '1px solid rgb(204, 11, 11)';
   e.preventDefault();
   return false;
-});
+}
+
+form.addEventListener('submit', validate);
