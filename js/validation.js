@@ -5,6 +5,12 @@ const reg = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
 function validate(e) {
   const emailVal = email.value;
+  const formData = {
+    fullName: document.querySelector('.name').value,
+    emailAddress: document.querySelector('.email-address').value,
+    feedback: document.querySelector('.textarea').value,
+  };
+
   if (emailVal.match(reg)) {
     return true;
   }
