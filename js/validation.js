@@ -13,6 +13,8 @@ function validate(e) {
 
   if (emailVal.match(reg)) {
     localStorage.setItem('DATA', JSON.stringify(formData));
+    error.style.display = 'none';
+    email.style.border = '1px solid #d0d9d4';
     return true;
   }
   error.style.display = 'block';
@@ -25,3 +27,10 @@ function validate(e) {
 form.addEventListener('submit', validate);
 const getInfo = localStorage.getItem('DATA');
 const getContactInfo = JSON.parse(getInfo);
+window.addEventListener('load', () => {
+  if (localStorage.getItem('DATA')) {
+    document.querySelector('.name').value = getContactInfo.fullName;
+    document.querySelector('.email-address').value = getContactInfo.emailAddress;
+    document.querySelector('.textarea').value = getContactInfo.feedback;
+  }
+});
